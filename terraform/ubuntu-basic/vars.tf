@@ -16,11 +16,11 @@ variable "AMIS" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "tf-ubuntu"
+  default = "rs-tf-ubuntu"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "tf-ubuntu.pub"
+  default = "rs-tf-ubuntu.pub"
 }
 
 variable "INSTANCE_USERNAME" {
